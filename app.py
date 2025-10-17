@@ -5,9 +5,9 @@ import json
 app = Flask(__name__)
 
 # ---- MongoDB Atlas Connection ----
-client = MongoClient("mongodb+srv://Govind:<db_password>@cluster0.qk7lihq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://Govind:<Govind1155>@cluster0.qk7lihq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["flask_demo"]
-collection = db["users"]
+collection = db["Govind"]
 
 # ---- API route ----
 @app.route('/api')
